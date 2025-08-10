@@ -11,11 +11,9 @@ const [password,setPassword] = useState('')
 const [errorText, setErrorText] = useState('')
 const [checking,setChecking] = useState(true)
 const router = useRouter()
-const key = 'chisom505'
+const key = 'greatness'
 const mail= 'testmail@gmail.com'
- // clear local storage on every reload
 useEffect(()=>{
-  localStorage.clear()
     const checkstate = localStorage.getItem('loggedIn')
     if (checkstate == 'true'){
         router.push('/admin/dashboard/home')
@@ -30,7 +28,6 @@ async function SignIn(){
         setErrorText('')
         setLoading(true)
         try {
-          
            if (email != mail && password != key ){ // if they get their email or password wrong.
             setErrorText('incorrect email or password')
             setLoading(false)
