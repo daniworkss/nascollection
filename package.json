@@ -6,8 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "npx --yes install-lightningcss"
+    "lint": "next lint"
   },
   "dependencies": {
     "@stripe/react-stripe-js": "^3.1.1",
