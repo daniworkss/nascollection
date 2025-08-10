@@ -194,7 +194,7 @@ export default function ProductPage() {
               </svg>
             </div>
             <h2 className="text-2xl font-bold text-gray-900 mb-2">Product not found</h2>
-            <p className="text-gray-500">The product you're looking for doesn't exist or has been removed.</p>
+            <p className="text-gray-500">The product you&apos;re looking for doesn&apos;t exist or has been removed.</p>
             <Link href="/" className="inline-flex items-center mt-6 px-6 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-all duration-200 font-medium">
               Back to Home
             </Link>
@@ -496,7 +496,7 @@ export default function ProductPage() {
                             : "bg-gray-100 text-gray-700 hover:bg-gray-200 hover:scale-105"
                         }`}
                       >
-                        {inch}"
+                        {inch}&quot;
                       </button>
                     ))}
                   </div>
