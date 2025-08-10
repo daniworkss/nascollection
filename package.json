@@ -1,0 +1,52 @@
+{
+  "name": "nascollection",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "lucide-react": "^0.536.0",
+    "next": "15.4.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.4.0",
+    "firebase": "^11.3.1",
+    "formidable": "^3.5.2",
+    "framer-motion": "^11.15.0",
+    "nodemailer": "^6.9.15",
+    "react-calendly": "^4.3.1",
+    "react-intersection-observer": "^9.14.1",
+    "react-modal": "^3.16.1",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^11.0.2",
+    "scroll-lock": "^2.1.5",
+    "shippo": "^1.7.1",
+    "stripe": "^17.5.0",
+    "swiper": "^11.1.14",
+    "zod": "^3.24.1",
+    "axios": "^1.8.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "crypto": "^1.0.1",
+    "dom-to-image": "^2.6.0",
+    "firebase-admin": "^13.4.0",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.3",
+    "jspdf": "^3.0.1",
+    "mailersend": "^2.6.0",
+    "tailwind-merge": "^3.2.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.5",
+    "tailwindcss": "^4"
+  }
+}
