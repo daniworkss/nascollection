@@ -1,4 +1,4 @@
-import Layout from "@/components/seller/layout"
+import Layout from "@/components/admin/layout"
 export default function Transactions(){
   return (
     <Layout>
